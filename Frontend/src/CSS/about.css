@@ -1,0 +1,41 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 92vh;
+    background-image: url("bg-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    animation-fill-mode: forwards;
+}
+
+.about-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 27vw;
+    animation-name: slidein;
+    animation-duration: 500ms;
+}
+
+.container p{
+    width: 20vw;
+    font-size: 1.5vmax;
+}
+
+.container .fa{
+    font-size: 5vmax;
+}
+
+.container i{
+    width: 7vw;
+}
+

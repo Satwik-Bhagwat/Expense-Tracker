@@ -1,0 +1,83 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 92vh;
+    background-image: url("bg-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.signup-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size:2vmax;
+    color:white;
+    font-weight:bold;
+    width:30vw;
+    height:50vh;
+    animation: slidein 0.5s;
+}
+
+.signup-area h1{
+    border-bottom:0.2vmax solid #4caf50;
+}
+
+.signup-area i{
+    font-size:1.1vmax;
+}
+
+.text-box{
+    width:50%;
+    overflow:hidden;
+    border-bottom:0.1vmax solid #4caf50;
+}
+
+.text-box input{
+    border:none;
+    background:none;
+    outline:none;
+    color:white;
+    font-size:1vmax;
+}
+
+.signup-btn{
+    background:none;
+    border:0.2vmax solid #4caf50;
+    color:white;
+    cursor:pointer;
+    font-size:2vmax;
+    font-weight: bold;
+    outline: none;
+    width:50%;
+    border-radius:1vmax;
+    transition: background-color 500ms,
+                color 500ms;
+}
+
+.signup-btn:hover{
+    background-color: #4caf50;
+    color:rgb(46, 46, 46);
+}
+
+.acc{
+    font-size:1.5vmax;
+    color:white;
+}
+
+.acc p{
+    float:left;
+}
+
+.acc a{
+    text-decoration: none;
+    color:#4caf50;
+}
+
+.acc a:hover{
+    text-decoration: underline;
+}

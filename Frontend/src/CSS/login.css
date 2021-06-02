@@ -1,0 +1,83 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 92vh;
+    background-image: url("bg-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size:2vmax;
+    color:white;
+    font-weight:bold;
+    width:30vw;
+    height:50vh;
+    animation: slidein 0.5s;
+}
+
+.login-area h1{
+    border-bottom:0.2vmax solid #4caf50;
+}
+
+.login-area i{
+    font-size:1.1vmax;
+}
+
+.text-box{
+    width:50%;
+    overflow:hidden;
+    border-bottom:0.1vmax solid #4caf50;
+}
+
+.text-box input{
+    border:none;
+    background:none;
+    outline:none;
+    color:white;
+    font-size:1vmax;
+}
+
+.login-btn{
+    background:none;
+    border:0.2vmax solid #4caf50;
+    color:white;
+    cursor:pointer;
+    font-size:2vmax;
+    font-weight: bold;
+    width:50%;
+    outline: none;
+    border-radius:1vmax;
+    transition: background-color 500ms,
+                color 500ms;
+}
+
+.login-btn:hover{
+    background-color: #4caf50;
+    color:rgb(46, 46, 46);
+}
+
+.no-acc{
+    font-size:1.5vmax;
+    color:white;
+}
+
+.no-acc p{
+    float:left;
+}
+
+.no-acc a{
+    text-decoration: none;
+    color:#4caf50;
+}
+
+.no-acc a:hover{
+    text-decoration: underline;
+}
